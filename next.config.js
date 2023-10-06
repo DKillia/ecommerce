@@ -1,12 +1,8 @@
-/** @type {import('next').NextConfig} */
+/** @type {import(‘next’).NextConfig} */
 const nextConfig = {
-    images: {
-        domains: [
-            'scontent.fbir1-1.fna.fbcdn.net',
-            'beforeigosolutions.com',
-            'i.ibb.co'
-        ],
+    experimental: {
+    appDir: true,
     },
-}
-
-module.exports = nextConfig
+    }
+    
+    module.exports = nextConfig
